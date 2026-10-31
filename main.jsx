@@ -1,11 +1,5 @@
-import { createRoot } from 'react-dom/client';
-
-function Hello() {
-  return (
-    <h1>Hello World!</h1>
-  );
-}
+import { createRoot } from 'react-dom/client'
 
 createRoot(document.getElementById('root')).render(
-  <Hello />
-);
+  <h1>Hello React!</h1>
+) 
